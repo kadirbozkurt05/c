@@ -31,7 +31,7 @@ const UserList: React.FC<UserListProps> = ({ users, isLoading, onRoleChange }) =
                 onChange={(e) => onRoleChange(user.id, e.target.value)}
                 className="border border-gray-300 rounded-md px-3 py-1 text-sm focus:ring-blue-500 focus:border-blue-500"
               >
-                <option value="student">Öğrenci</option>
+                <option value="user">Öğrenci</option>
                 <option value="teacher">Öğretmen</option>
               </select>
             </div>
